@@ -1,0 +1,322 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- Bootstrap Styles-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- Morris Chart Styles-->
+    <link href="assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+    <!-- Custom Styles-->
+    <link href="assets/css/custom-styles.css" rel="stylesheet" />
+    <!-- Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <!-- MyCss -->
+    <link href="assets/css/mycss.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-default top-navbar" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><i class="fa fa-comments"></i> <strong>POSTS </strong></a>
+            </div>
+            
+
+            <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <span class="search-bar input-group">
+                            <input class="form-control" name="search" placeholder="find posts or themes..." />
+                            <span class="btn btn-primary input-group-addon">search!</span>
+                        </span>
+                    </li>
+                    
+                    <li>
+                        <span class="newPost">
+                          <span class="btn btn-info">new a post!</span>
+                        </span>
+                    </li>    
+                        
+                    <!-- /.dropdown-messages -->
+                <!-- /.dropdown -->
+                
+                <!-- /.dropdown -->
+                
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle  resetPadding" data-toggle="dropdown" href="#" aria-expanded="false">
+                        <img class="log-img" src="assets/img/avatar1.jpg"></img> 
+                        <span>Leo Lucas</span>
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="#"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+        </nav>
+        <!--/. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+		<div id="sideNav" href=""><i class="fa fa-caret-right"></i></div>
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+
+                   <li>
+                        <a class="active-menu" href="#"><i class="fa fa-home"></i> Homepage</a>
+                    </li>
+                    <li>
+                        <a href="postGroup.html"><i class="fa fa-group"></i> My Posts Group</a>
+                    </li>
+                    <li>
+                        <a href="myPost.html"><i class="fa fa-edit"></i> My Posts</a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper">
+            <div id="page-inner">
+                <button class="btn btn-default phpclick">click to php</button>
+                <div class="load"></div>
+                <!-- /. ROW  -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-header">
+                            Welcome to <span class="theme-color">POSTS</span>
+                            <small>&nbsp;&nbsp;&nbsp;read, comment, and write posts.</small>
+                        </h1>
+                    </div>
+                </div>
+				
+                 <!-- /. ROW  -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="white-block">
+                            <h3 class="white-text dis-inline">Post.
+                            <small class="italic">&nbsp;&nbsp;&nbsp;view the top heat posts.</small>
+                            </h3> 
+                            <button class="btn btn-default btn-sm dis-inline btn-refresh">换一组&nbsp;&nbsp;<i class="fa fa-refresh"></i></button>                 
+                        </span>
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary no-boder bg-color-green green">
+                            <div class="panel-header green">
+                                <img class="rank-img" src="assets/img/avatar1.jpg"></img>
+                                <span class="brief-intro">
+                                    <strong>Leo Lucas</strong><br/>
+                                    <i>&nbsp;&nbsp;&nbsp;I am a director.</i>
+                                </span>
+                            </div>
+                            <div class="panel-body-2">
+                                <a href="javascript:void(alert(this.title))" class="h4 panel-post-title" title="Ask for suggestions:  Where to go in this summer?">
+                                    Ask for suggestions:  Where to go...</a>
+                                <p class="panel-post-content">I'm free this summer,and wanna go out visiting tourism for this summer...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary no-boder bg-color-green green">
+                            <div class="panel-header green">
+                                <img class="rank-img" src="assets/img/avatar4.jpg"></img>
+                                <span class="brief-intro">
+                                    <strong>Lili</strong><br/>
+                                    <i>&nbsp;&nbsp;&nbsp;A happy girl.</i>
+                                </span>
+                            </div>
+                            <div class="panel-body-2">
+                                <a href="javascript:void(alert(this.title))" class="h4 panel-post-title" title="I love the tv shows">
+                                    I love the tv shows</a>
+                                <p class="panel-post-content">As what I said,I really think highly of this tv shows <b>'runningMan'</b>.What about you?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary no-boder bg-color-green green">
+                            <div class="panel-header green">
+                                <img class="rank-img" src="assets/img/avatar2.jpg"></img>
+                                <span class="brief-intro">
+                                    <strong>George Bill</strong><br/>
+                                    <i>&nbsp;&nbsp;&nbsp;feeling sad recently...</i>
+                                </span>
+                            </div>
+                            <div class="panel-body-2">
+                                <a href="javascript:void(alert(this.title))" class="h4 panel-post-title" title="The nba game today between 'Warrior' and 'Cavaliers' is so exciting!">
+                                    The nba game today between 'Warrior' and ...</a>
+                                <p class="panel-post-content">the socre now is 98:98!!!only 3 seconds left!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary no-boder bg-color-green green">
+                            <div class="panel-header green">
+                                <img class="rank-img" src="assets/img/avatar3.jpg"></img>
+                                <span class="brief-intro">
+                                    <strong>Astro Boy</strong><br/>
+                                    <i>&nbsp;&nbsp;&nbsp;TJU's student.</i>
+                                </span>
+                            </div>
+                            <div class="panel-body-2">
+                                <a href="javascript:void(alert(this.title))" class="h4 panel-post-title" title="Ask for suggestions:  Where to go in this summer?">
+                                    Do you watch the comic 'Astro Boy'?</a>
+                                <p class="panel-post-content">I think it's a very good cartoon and funny too!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <br/>
+                <br/>
+                <!-- /. ROW  -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="white-block">
+                            <h3 class="white-text  dis-inline">Post Groups.
+                            <small class="italic">&nbsp;&nbsp;&nbsp;view the top heat post themes.</small>
+                            </h3>  
+                            <button class="btn btn-default btn-sm dis-inline btn-refresh">换一组&nbsp;&nbsp;<i class="fa fa-refresh"></i></button>                
+                        </span>
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary no-boder bg-color-green green">
+                            <div class="panel-header green">
+                                <img class="rank-img" src="assets/img/groupAvatar1.jpg"></img>
+                                <span class="brief-intro">
+                                    <strong>NBA news</strong><br/>
+                                    <i>&nbsp;&nbsp;&nbsp;Let's talk about NBA.</i>
+                                </span>
+                            </div>
+                            <div class="panel-body-2">
+                                <a href="javascript:void(alert(this.title))" class="h4 panel-post-title" title="guess about the champion.">
+                                    guess about the champion.</a>
+                                <p class="panel-post-content">Which team will be the final champion???</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary no-boder bg-color-green green">
+                            <div class="panel-header green">
+                                <img class="rank-img" src="assets/img/groupAvatar4.jpg"></img>
+                                <span class="brief-intro">
+                                    <strong>Job ad.</strong><br/>
+                                    <i>&nbsp;&nbsp;&nbsp;Wanna know some job info?</i>
+                                </span>
+                            </div>
+                            <div class="panel-body-2">
+                                <a href="javascript:void(alert(this.title))" class="h4 panel-post-title" title="Seeking for QA!">
+                                    Seeking for QA!</a>
+                                <p class="panel-post-content">Our company is seeking for a good QA required with 1 year experience at least...... Contact me:   Phone:xxx-x......</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary no-boder bg-color-green green">
+                            <div class="panel-header green">
+                                <img class="rank-img" src="assets/img/groupAvatar2.jpg"></img>
+                                <span class="brief-intro">
+                                    <strong>Delicious Food</strong><br/>
+                                    <i>&nbsp;&nbsp;&nbsp;Let's seek nice food!</i>
+                                </span>
+                            </div>
+                            <div class="panel-body-2">
+                                <a href="javascript:void(alert(this.title))" class="h4 panel-post-title" title="Strong suggest:hot pot!!!">
+                                    Strong suggest:hot pot!!!    
+                                </a>
+                                <p class="panel-post-content">In Beijing,In the restaurant,
+                                    in the alleyways of Qian Men
+                                 are renowned for hot pot, 
+                                 or <b>huo guo</b>...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary no-boder bg-color-green green">
+                            <div class="panel-header green">
+                                <img class="rank-img" src="assets/img/groupAvatar3.jpg"></img>
+                                <span class="brief-intro">
+                                    <strong>Book Corner</strong><br/>
+                                    <i>&nbsp;&nbsp;&nbsp;Take time to read book.</i>
+                                </span>
+                            </div>
+                            <div class="panel-body-2">
+                                <a href="javascript:void(alert(this.title))" class="h4 panel-post-title" title="Ask for suggestions:  Where to go in this summer?">
+                                    Today's Recommend: Ordinary World</a>
+                                <p class="panel-post-content">Ordinary World is completed by  Lu Yao  in May 1988 of a million words long masterpiece. Is a panoramic ...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+               
+                        
+                    
+				
+                
+                <!-- /. ROW  -->
+                <br/><br/><br/><br/><br/>
+				<footer><p class="text-center">Copyright &copy; 2017 .ZQB All rights reserved.</p></footer>
+            </div>
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
+    <!-- JS Scripts-->
+    <!-- jQuery Js -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+	 
+    <!-- Metis Menu Js -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+    <!-- Morris Chart Js -->
+    <script src="assets/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="assets/js/morris/morris.js"></script>
+	
+	
+	<script src="assets/js/easypiechart.js"></script>
+	<script src="assets/js/easypiechart-data.js"></script>
+	
+	
+    <!-- Custom Js -->
+    <script src="assets/js/custom-scripts.js"></script>
+
+     <script src="assets/js/myJs/my1.js"></script>
+
+
+</body>
+
+</html>
