@@ -4,3 +4,6 @@ $('.phpclick').click(function(){
 		}
 	);
 });
+
+$(document).ready(function(){
+});

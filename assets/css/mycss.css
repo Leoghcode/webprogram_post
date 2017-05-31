@@ -1,3 +1,6 @@
+body{
+	padding-right:0px !important;
+}
 .theme-color {
 	color: #1CC09F;
 }
@@ -15,7 +18,12 @@
 	right:50px;
 
 }
-
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
 .white-block{
 	display: block;
 	padding: 10px 10px 10px 10px;
@@ -104,4 +112,18 @@
 }
 a.resetPadding{
 	padding:0px 20px 0px 0px !important;
+}
+
+.text-center{
+	text-align:center;
+}
+
+.font-white{
+	color:white;
+}
+
+.center-button{
+	width:100px;
+	margin:30px auto 10px;
+	display:block;
 }

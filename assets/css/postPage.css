@@ -1,0 +1,109 @@
+.post-header{
+	
+}
+.post-title{
+	text-align:center;
+	color:white;
+	font-weight: bold;
+	border-bottom: 1px solid #77ccfb;
+	background: #1CC09F;
+	padding-top: 10px;
+	height:60px;
+	border-radius: 15px;
+}
+#page-wrapper{
+	background: white;
+}
+#page-inner{
+	background: #f3f3f3;
+	border-radius: 13px;
+}
+.post-page{
+	font-family: sans-serif;
+	color:black;
+	margin:10px;
+	padding:10px;
+}
+.post-author{
+	margin-right:10px;
+	min-width:150px;
+}
+.post-img{
+	height:35px;
+	width:35px;
+}
+.brief-intro{
+	font-size:x-small;
+	width:100px;
+}
+.post-content-all{
+	text-align: center;
+	margin:10px 20px 50px;
+	padding:5px 15px 5px;
+	background: green;
+	letter-spacing: 2px;
+	text-indent:10px;
+	min-height:150px;
+}
+.divider{
+	margin:20px 0px 20px 0px;
+	border-bottom: 1px solid #77ccfb;
+}
+
+.comment-header{
+	background: #1CC09F;
+	height:60px;
+	color:white;
+	font-size:45px;
+	padding: 0px 0px 7px 15px;
+	border-radius: 15px;
+}
+.comments{
+	padding:15px 10px 5px 10px;
+}
+.comment-cell{
+	min-height: 100px;
+	width:90%;
+	margin:0px auto 10px;
+}
+
+.comment-cell-left{
+	display: inline-block;
+	width:20%;
+	background: #1CC09F;
+	color:white;
+	padding:8px 8px 8px 30px;
+	margin-top:0;
+	vertical-align: top;
+}
+.comment-cell-right{
+	display: inline-block;
+	width:75%;
+	background: white;
+	color:black;
+	padding:8px 8px 8px 18px;
+	margin-top:0;
+	vertical-align: top;
+}
+
+.vertical-middle{
+	vertical-align: bottom;
+}
+
+.comment-btn{
+	font-size:16px;
+	float:right;
+	position:relative;
+	right:60px;
+	top:15px;
+}
+
+.modal-body textarea{
+	width:90%;
+	margin:20px auto;
+	font-size:16px;
+}
+
+.post-time{
+	margin-left:0px;
+}
